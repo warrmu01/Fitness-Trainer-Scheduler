@@ -8,32 +8,38 @@ const Home = ({ searchParams }: SearchParamProps) => {
   const isAdmin = searchParams?.admin === "true";
 
   return (
-    <div className="flex h-screen max-h-screen">
+    <div className="relative flex h-screen max-h-screen overflow-hidden">
       {isAdmin && <PasskeyModal />}
 
-      <section className="remove-scrollbar container my-auto">
-        <div className="sub-container max-w-[496px]">
+      {/* Background Image */}
+      <div className="absolute inset-0 overflow-hidden">
+        <Image
+          src="/assets/images/onboarding-img.jpg"
+          layout="fill"
+          objectFit="cover"
+          alt="patient"
+          className="filter blur-[8px] brightness-50"
+        />
+      </div>
 
-          <PatientForm />
+      {/* Form Container with Gray Background */}
+      <section className="relative z-10 flex items-center justify-center w-full h-full">
+        <div className="remove-scrollbar container my-auto p-6 bg-gray-800 bg-opacity-70 rounded-lg shadow-lg">
+          <div className="sub-container max-w-[496px]">
 
-          <div className="text-14-regular mt-20 flex justify-between">
-            <p className="justify-items-end text-dark-600 xl:text-left">
-              © 2024 Shayan Akram
-            </p>
-            <Link href="/?admin=true" className="text-green-500">
-              Admin
-            </Link>
+            <PatientForm />
+
+            <div className="text-14-regular mt-20 flex justify-between">
+              <p className="justify-items-end text-dark-600 xl:text-left">
+                © 2024 Shayan Akram
+              </p>
+              <Link href="/?admin=true" className="text-green-500">
+                Admin
+              </Link>
+            </div>
           </div>
         </div>
       </section>
-
-      <Image
-        src="/assets/images/onboarding-img.jpg"
-        height={1000}
-        width={1000}
-        alt="patient"
-        className="side-img max-w-[45%]"
-      />
     </div>
   );
 };

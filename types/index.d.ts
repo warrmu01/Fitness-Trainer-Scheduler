@@ -22,7 +22,7 @@ declare interface RegisterUserParams extends CreateUserParams {
   birthDate: Date;
   gender: Gender;
   currentGoal: string;
-  currentlyStopping: string;
+  currentlyStoping: string;
   stuckShape: string;
   whyChange: string;
   privacyConsent: boolean;

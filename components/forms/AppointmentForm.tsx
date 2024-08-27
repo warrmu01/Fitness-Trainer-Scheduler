@@ -142,7 +142,7 @@ export const AppointmentForm = ({
 
         {type !== "cancel" && (
           <>
-            <CustomFormField
+            {/* <CustomFormField
               fieldType={FormFieldType.SELECT}
               control={form.control}
               name="primaryPhysician"
@@ -163,7 +163,7 @@ export const AppointmentForm = ({
                   </div>
                 </SelectItem>
               ))}
-            </CustomFormField>
+            </CustomFormField> */}
 
             <CustomFormField
               fieldType={FormFieldType.DATE_PICKER}

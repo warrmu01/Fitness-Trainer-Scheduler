@@ -42,7 +42,9 @@ const RegisterForm = ({ user }: { user: User }) => {
 
   const onSubmit = async (values: z.infer<typeof PatientFormValidation>) => {
     setIsLoading(true);
-
+  
+    console.log("Form submitted with values:", values);
+  
     try {
       const patient = {
         userId: user.$id,
@@ -52,21 +54,25 @@ const RegisterForm = ({ user }: { user: User }) => {
         birthDate: new Date(values.birthDate),
         gender: values.gender,
         currentGoal: values.currentGoal,
-        currentlyStopping: values.currentlyStoping,
+        currentlyStoping: values.currentlyStoping,
         stuckShape: values.stuckShape,
         whyChange: values.whyChange,
         privacyConsent: values.privacyConsent,
       };
-
+  
+      console.log("Registering patient with data:", patient);
+  
       const newPatient = await registerPatient(patient);
-
-      if (newPatient) {
-        router.push(`/patients/${user.$id}/new-appointment`);
-      }
+  
+      console.log("Response from registerPatient:", newPatient);
+  
+      if (!newPatient) throw new Error("Failed to create new patient");
+  
+      router.push(`/patients/${user.$id}/new-appointment`);
     } catch (error) {
-      console.log(error);
+      console.error("Registration failed:", error);
     }
-
+  
     setIsLoading(false);
   };
 
@@ -319,28 +325,27 @@ const RegisterForm = ({ user }: { user: User }) => {
             <h2 className="sub-header">Consent and Privacy</h2>
           </div>
 
-          <CustomFormField
+          {/* <CustomFormField
             fieldType={FormFieldType.CHECKBOX}
             control={form.control}
             name="treatmentConsent"
             label="I consent to receive fitness training from Shayan Akram"
-          />
+          /> */}
 
-          <CustomFormField
+          {/* <CustomFormField
             fieldType={FormFieldType.CHECKBOX}
             control={form.control}
             name="disclosureConsent"
             label="I consent to the use and disclosure of my health
             information for treatment purposes."
-          />
+          /> */}
 
-          {/* <CustomFormField
+          <CustomFormField
             fieldType={FormFieldType.CHECKBOX}
             control={form.control}
             name="privacyConsent"
-            label="I acknowledge that I have reviewed and agree to the
-            privacy policy"
-          /> */}
+            label="I consent to receive fitness training from Shayan Akram"
+          />
         </section>
 
         <SubmitButton isLoading={isLoading}>Submit and Continue</SubmitButton>

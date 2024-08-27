@@ -53,6 +53,8 @@ export const getUser = async (userId: string) => {
 // REGISTER PATIENT
 export const registerPatient = async ({ ...patient }: RegisterUserParams) => {
   try {
+    console.log("Attempting to register patient with data:", patient);
+    
     const newPatient = await databases.createDocument(
       DATABASE_ID!,
       PATIENT_COLLECTION_ID!,
@@ -61,13 +63,15 @@ export const registerPatient = async ({ ...patient }: RegisterUserParams) => {
     );
 
     if (!newPatient) {
+      console.error("Failed to create a new patient. No response received.");
       throw new Error("Failed to create a new patient. No response received.");
     }
 
+    console.log("Patient registered successfully:", newPatient);
     return parseStringify(newPatient);
   } catch (error) {
     console.error("An error occurred while creating a new patient:", error);
-    return null; // Return null in case of an error
+    return null;
   }
 };
 
