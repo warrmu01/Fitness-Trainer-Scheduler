@@ -22,40 +22,20 @@ export const PatientFormValidation = z.object({
     .refine((phone) => /^\+\d{10,15}$/.test(phone), "Invalid phone number"),
   birthDate: z.coerce.date(),
   gender: z.enum(["Male", "Female", "Other"]),
-  address: z
-    .string()
-    .min(5, "Address must be at least 5 characters")
-    .max(500, "Address must be at most 500 characters"),
-  occupation: z
-    .string()
-    .min(2, "Occupation must be at least 2 characters")
-    .max(500, "Occupation must be at most 500 characters"),
-  emergencyContactName: z
-    .string()
-    .min(2, "Contact name must be at least 2 characters")
-    .max(50, "Contact name must be at most 50 characters"),
-  emergencyContactNumber: z
-    .string()
-    .refine(
-      (emergencyContactNumber) => /^\+\d{10,15}$/.test(emergencyContactNumber),
-      "Invalid phone number"
-    ),
-  primaryPhysician: z.string().min(2, "Select at least one doctor"),
-  insuranceProvider: z
+  currentGoal: z
     .string()
     .min(2, "Insurance name must be at least 2 characters")
     .max(50, "Insurance name must be at most 50 characters"),
-  insurancePolicyNumber: z
+  currentlyStoping: z
     .string()
     .min(2, "Policy number must be at least 2 characters")
     .max(50, "Policy number must be at most 50 characters"),
-  allergies: z.string().optional(),
-  currentMedication: z.string().optional(),
-  familyMedicalHistory: z.string().optional(),
-  pastMedicalHistory: z.string().optional(),
-  identificationType: z.string().optional(),
-  identificationNumber: z.string().optional(),
-  identificationDocument: z.custom<File[]>().optional(),
+  stuckShape: z.string()
+    .min(2, "Policy number must be at least 2 characters")
+    .max(50, "Policy number must be at most 50 characters"),
+  whyChange: z.string()
+    .min(2, "Policy number must be at least 2 characters")
+    .max(50, "Policy number must be at most 50 characters"),
   treatmentConsent: z
     .boolean()
     .default(false)
