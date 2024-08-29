@@ -51,27 +51,27 @@ export const getUser = async (userId: string) => {
 };
 
 // REGISTER PATIENT
-export const registerPatient = async ({ ...patient }: RegisterUserParams) => {
+export const registerPatient = async ({
+  // Remove identificationDocument from parameters
+  ...patient
+}: RegisterUserParams) => {
   try {
-    console.log("Attempting to register patient with data:", patient);
-    
+    console.log("patient data", patient);
+    console.log({gender: patient.gender})
+
+    // Create new patient document without handling identificationDocument
     const newPatient = await databases.createDocument(
       DATABASE_ID!,
       PATIENT_COLLECTION_ID!,
       ID.unique(),
-      { ...patient }
+      {
+        ...patient, // Include patient data
+      }
     );
 
-    if (!newPatient) {
-      console.error("Failed to create a new patient. No response received.");
-      throw new Error("Failed to create a new patient. No response received.");
-    }
-
-    console.log("Patient registered successfully:", newPatient);
     return parseStringify(newPatient);
   } catch (error) {
     console.error("An error occurred while creating a new patient:", error);
-    return null;
   }
 };
 
@@ -83,6 +83,8 @@ export const getPatient = async (userId: string) => {
       PATIENT_COLLECTION_ID!,
       [Query.equal("userId", [userId])]
     );
+    console.log("User ID used for query:", userId);
+
 
     if (!patients.documents || patients.documents.length === 0) {
       throw new Error("No patient found with the given userId.");

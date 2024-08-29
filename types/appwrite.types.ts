@@ -9,8 +9,8 @@ export interface Patient extends Models.Document {
   gender: Gender;
   currentGoal: string;
   currentlyStoping: string;
-  stuckShape: string | undefined;
-  whyChange: string | undefined;
+  stuckShape: string;
+  whyChange: string;
   privacyConsent: boolean;
 }
 

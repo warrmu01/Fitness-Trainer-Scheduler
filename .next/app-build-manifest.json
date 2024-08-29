@@ -28,17 +28,17 @@
       "static/css/app/patients/[userId]/register/page.css",
       "static/chunks/app/patients/[userId]/register/page.js"
     ],
-    "/admin/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/admin/page.css",
-      "static/chunks/app/admin/page.js"
-    ],
     "/patients/[userId]/new-appointment/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/patients/[userId]/new-appointment/page.css",
       "static/chunks/app/patients/[userId]/new-appointment/page.js"
+    ],
+    "/admin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/admin/page.css",
+      "static/chunks/app/admin/page.js"
     ]
   }
 }

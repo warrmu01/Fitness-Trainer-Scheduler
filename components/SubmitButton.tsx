@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import { Button } from "./ui/button";
 
 interface ButtonProps {
@@ -9,11 +8,16 @@ interface ButtonProps {
 }
 
 const SubmitButton = ({ isLoading, className, children }: ButtonProps) => {
+  const handleClick = () => {
+    console.log("Submit button clicked");
+  };
+
   return (
     <Button
       type="submit"
       disabled={isLoading}
       className={className ?? "shad-primary-btn w-full"}
+      onClick={handleClick}
     >
       {isLoading ? (
         <div className="flex items-center gap-4">

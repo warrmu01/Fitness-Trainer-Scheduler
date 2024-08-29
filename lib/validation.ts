@@ -12,6 +12,7 @@ export const UserFormValidation = z.object({
 });
 
 export const PatientFormValidation = z.object({
+  
   name: z
     .string()
     .min(2, "Name must be at least 2 characters")
@@ -21,21 +22,23 @@ export const PatientFormValidation = z.object({
     .string()
     .refine((phone) => /^\+\d{10,15}$/.test(phone), "Invalid phone number"),
   birthDate: z.coerce.date(),
-  gender: z.enum(["Male", "Female", "Other"]),
+  gender: z.enum(["male", "female", "other"]),
   currentGoal: z
     .string()
-    .min(2, "Insurance name must be at least 2 characters")
-    .max(50, "Insurance name must be at most 50 characters"),
+    .min(2, "Current goal must be at least 2 characters")
+    .max(200, "Current goal must be at most 200 characters"),
   currentlyStoping: z
     .string()
-    .min(2, "Policy number must be at least 2 characters")
-    .max(50, "Policy number must be at most 50 characters"),
-  stuckShape: z.string()
-    .min(2, "Policy number must be at least 2 characters")
-    .max(50, "Policy number must be at most 50 characters"),
-  whyChange: z.string()
-    .min(2, "Policy number must be at least 2 characters")
-    .max(50, "Policy number must be at most 50 characters"),
+    .min(2, "This field must be at least 2 characters")
+    .max(200, "This field must be at most 200 characters"),
+  stuckShape: z
+    .string()
+    .min(2, "This field must be at least 2 characters")
+    .max(200, "This field must be at most 200 characters"),
+  whyChange: z
+    .string()
+    .min(2, "This field must be at least 2 characters")
+    .max(200, "This field must be at most 200 characters"),
   privacyConsent: z
     .boolean()
     .default(false)
