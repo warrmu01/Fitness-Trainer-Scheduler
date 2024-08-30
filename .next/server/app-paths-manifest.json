@@ -1,5 +1,4 @@
 {
-  "/patients/[userId]/new-appointment/page": "app/patients/[userId]/new-appointment/page.js",
-  "/page": "app/page.js",
-  "/patients/[userId]/register/page": "app/patients/[userId]/register/page.js"
+  "/admin/page": "app/admin/page.js",
+  "/page": "app/page.js"
 }

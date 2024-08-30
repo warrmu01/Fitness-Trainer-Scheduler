@@ -13,14 +13,14 @@ const RequestSuccess = async ({
   const appointmentId = (searchParams?.appointmentId as string) || "";
   const appointment = await getAppointment(appointmentId);
 
-  const doctor = Doctors.find(
-    (doctor) => doctor.name === appointment.primaryPhysician
-  );
+  // const doctor = Doctors.find(
+  //   (doctor) => doctor.name === appointment.primaryPhysician
+  // );
 
   return (
     <div className=" flex h-screen max-h-screen px-[5%]">
       <div className="success-img">
-        <Link href="/">
+        {/* <Link href="/">
           <Image
             src="/assets/icons/logo-full.svg"
             height={1000}
@@ -28,7 +28,7 @@ const RequestSuccess = async ({
             alt="logo"
             className="h-10 w-fit"
           />
-        </Link>
+        </Link> */}
 
         <section className="flex flex-col items-center">
           <Image
@@ -47,14 +47,14 @@ const RequestSuccess = async ({
         <section className="request-details">
           <p>Requested appointment details: </p>
           <div className="flex items-center gap-3">
-            <Image
+            {/* <Image
               src={doctor?.image!}
               alt="doctor"
               width={100}
               height={100}
               className="size-6"
-            />
-            <p className="whitespace-nowrap">Dr. {doctor?.name}</p>
+            /> */}
+            {/* <p className="whitespace-nowrap">Dr. {doctor?.name}</p> */}
           </div>
           <div className="flex gap-2">
             <Image
@@ -73,7 +73,7 @@ const RequestSuccess = async ({
           </Link>
         </Button>
 
-        <p className="copyright">© 2024 CarePluse</p>
+        {/* <p className="copyright">© 2024 CarePluse</p> */}
       </div>
     </div>
   );

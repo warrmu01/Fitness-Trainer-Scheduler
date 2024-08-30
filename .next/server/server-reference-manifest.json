@@ -2,181 +2,149 @@
   "node": {
     "06a940b1fb5a3aea400002d50ce5dfe4daaad7d4": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/patients/[userId]/register/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!",
-        "app/patients/[userId]/new-appointment/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc",
-        "app/patients/[userId]/new-appointment/page": "rsc"
+        "app/page": "action-browser"
       }
     },
     "490875bc96e3f42e001cb6a7cf4e5cc5c716a470": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/patients/[userId]/register/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!",
-        "app/patients/[userId]/new-appointment/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc",
-        "app/patients/[userId]/new-appointment/page": "rsc"
+        "app/page": "action-browser"
       }
     },
     "5a328de1df9fd9e9013a704cfa581463bfa198da": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/patients/[userId]/register/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!",
-        "app/patients/[userId]/new-appointment/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc",
-        "app/patients/[userId]/new-appointment/page": "rsc"
+        "app/page": "action-browser"
       }
     },
     "738ad28b8d44c90eebe72f1633bce74f98248541": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/patients/[userId]/register/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!",
-        "app/patients/[userId]/new-appointment/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc",
-        "app/patients/[userId]/new-appointment/page": "rsc"
+        "app/page": "action-browser"
       }
     },
     "90adf5511dbae76f220517b6aa0e43302097c527": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/patients/[userId]/register/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!",
-        "app/patients/[userId]/new-appointment/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc",
-        "app/patients/[userId]/new-appointment/page": "rsc"
+        "app/page": "action-browser"
       }
     },
     "996dac30d9745f7935aa85dbb64471b9e5711867": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/patients/[userId]/register/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!",
-        "app/patients/[userId]/new-appointment/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc",
-        "app/patients/[userId]/new-appointment/page": "rsc"
+        "app/page": "action-browser"
       }
     },
     "a4077bc8d9e90446b3142ca7d0571a1aa95206d1": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/patients/[userId]/register/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!",
-        "app/patients/[userId]/new-appointment/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc",
-        "app/patients/[userId]/new-appointment/page": "rsc"
+        "app/page": "action-browser"
       }
     },
     "a4c6607711f340c345a980a2c85af1615f687815": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/patients/[userId]/register/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!",
-        "app/patients/[userId]/new-appointment/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fpatient.actions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22registerPatient%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22createUser%22%2C%22getPatient%22%2C%22getUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/page": "action-browser",
-        "app/patients/[userId]/register/page": "rsc",
-        "app/patients/[userId]/new-appointment/page": "rsc"
+        "app/page": "action-browser"
       }
     },
     "1974b19cc71be075b95e27b12b979dc2cba3af8c": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     },
     "1e055fa609fcb4fbacb853708f81367da97695aa": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     },
     "3268e019dfe9e093ce48cdca1698b8c5a94818ca": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     },
     "40d9e0005af78e16a523322fa244b9885af63099": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     },
     "60f7b24210bca057437f96d38d1fdd729535ddab": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     },
     "977b341c0c337284d238cb2fff9a4c542ffdccd3": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     },
     "97bcd6389edf651b0f78a0d34c251731a77cf0c1": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     },
     "b19379b1e4819b40b261c4541cb5a0df6b3e7316": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     },
     "d27ca65f7432d94058cfe6e2f492e6eeaa3cd98b": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     },
     "eedee2a7bbcc0e5e3deb11400de9f09c56e9bb78": {
       "workers": {
-        "app/patients/[userId]/new-appointment/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fm.mughees%2FDesktop%2FFitness-Trainer-Scheduler%2Flib%2Factions%2Fappointment.actions.ts%22%2C%5B%22%24%24ACTION_4%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22createAppointment%22%2C%22sendSMSNotification%22%2C%22%24%24ACTION_2%22%2C%22updateAppointment%22%2C%22getAppointment%22%2C%22getRecentAppointmentList%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/patients/[userId]/new-appointment/page": "action-browser"
+        "app/admin/page": "rsc"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "OjYwMxXnSmkWQ0aRgY7/YFeKzDAbLemDsrowpU1ISvM="
+  "encryptionKey": "u2T9H0A5pPVnztuuz3c7QtMfDQJ7aCAH1NCgO2HLfno="
 }
